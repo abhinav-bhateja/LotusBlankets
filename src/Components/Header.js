@@ -9,11 +9,6 @@ import img2 from './imgs/corousel2.png';
 import img3 from './imgs/corousel3.jpg';
 import img4 from './imgs/corousel4.png';
 
-import logo from './imgs/Lotus logo.png';
-
-
-import Fade from "react-reveal/Fade";
-
 class Header extends Component {
 
     render() {

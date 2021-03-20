@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import pe from '../imgs/Pearl.png';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -16,7 +16,7 @@ function Pearl() {
 
                         <div className="fourr columnns">
 
-                            <img src={pe}></img>
+                            <img src={pe} alt=""></img>
 
                         </div>
 

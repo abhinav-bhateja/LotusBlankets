@@ -1,9 +1,8 @@
 {
-  "name": "personalportfolio",
+  "name": "wow",
   "version": "0.1.0",
+  "homepage": "lotus-2020.netifly.com",
   "private": true,
-  "homepage": "https://lotusblankets.com/",
-  "proxy": "http://localhost:3001",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -28,7 +27,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "set PORT=3000 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
