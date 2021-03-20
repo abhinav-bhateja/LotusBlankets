@@ -1,0 +1,93 @@
+.acontainer{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.arow {
+    width: 85%;
+    margin: 0 auto;
+}
+/* fixed width for IE8 */
+.ie .arow { width: 1000px ; }
+
+.nararow .arow { max-width: 980px; }
+
+.arow .arow { width: auto; max-width: none; margin: 0 -20px; }
+
+/* arow clearing */
+.arow:before,
+.arow:after {
+    content: " ";
+    display: table;
+}
+.arow:after {
+    clear: both;
+}
+
+.columnn, .columnns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+.columnn.centered, .columnns.centered  {
+    float: none;
+    margin: 0 auto;
+}
+
+/* removed gutters */
+.arow.collapsed > .columnn,
+.arow.collapsed > .columnns,
+.columnn.collapsed, .columnns.collapsed  { padding: 0; }
+
+[class*="columnn"] + [class*="columnn"]:last-child { float: right; }
+[class*="columnn"] + [class*="columnn"].end { float: right; }
+
+/* columnn widths */
+.arow .onee         { width: 8.33333%; }
+.arow .twoo        { width: 16.66667%; }
+.arow .threee       { width: 25%; }
+.arow .fourr        { width: 33.33333%; }
+.arow .fivee        { width: 41.66667%; }
+.arow .sixx         { width: 50%; }
+.arow .sevenn       { width: 58.33333%; }
+.arow .eightt       { width: 66.66667%; }
+.arow .ninee        { width: 75%; }
+.arow .tenn         { width: 83.33333%; }
+.arow .elevenn      { width: 91.66667%; }
+.arow .twelvee      { width: 100%; }
+
+.columnns{
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+
+.checking-feature-top {
+    display: block;
+    padding: 25px 10px;
+    border: 1px solid #ccc;
+    margin: 1.5em auto;
+    /*max-width: 90%;*/
+    align-items: stretch;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 5px;
+}
+
+.danger{
+
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+
+}
+
+.danger:hover{
+    background: red;
+    color: white;
+}
+
