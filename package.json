@@ -1,7 +1,7 @@
 {
   "name": "wow",
   "version": "0.1.0",
-  "homepage": "lotus-2020.netifly.com",
+  "homepage": "https://lotus-2020.netlify.app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
