@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import sa from '../imgs/Sapphire.png';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -21,7 +21,7 @@ function Sapphire() {
 
                         <div className="fourr columnns">
 
-                            <img src={sa}></img>
+                            <img src={sa} alt="" />
 
                         </div>
 

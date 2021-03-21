@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import mink from "../imgs/Mink-Blankets-optimized.jpg";
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -21,7 +21,7 @@ function Solitaire() {
 
                         <div className="fourr columnns">
 
-                            <img src={mink}></img>
+                            <img src={mink} alt=""/>
 
                         </div>
 

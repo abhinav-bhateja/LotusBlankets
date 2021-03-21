@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import about from './imgs/about us.jpg';
 import sign from './imgs/sign.png';
 
-import plant from './imgs/object_plant_1.png';
-
 import Fade from "react-reveal/Fade";
 
 class About extends Component {

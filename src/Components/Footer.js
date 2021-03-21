@@ -59,7 +59,7 @@ class Footer extends Component {
                                         <div id="map-container-google-1" className="z-depth-1-half map-container-6">
                                             <iframe classname="map1"
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473.328969585079!2d76.99575631429825!3d29.477598982092008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dd9617fc19581%3A0x46f69bc0998893e2!2sLOTUS%20BLANKETS!5e0!3m2!1sen!2sin!4v1598203963152!5m2!1sen!2sin"
-                                                frameBorder="0" allowFullScreen></iframe>
+                                                frameBorder="0" allowFullScreen title="map"></iframe>
                                         </div>
                                     </ul>
                                 </div>
@@ -71,10 +71,10 @@ class Footer extends Component {
                             <div className="twelve">
                                 <div className="line"></div>
                                 <div className="second2">
-                                    <a href="https://www.facebook.com/lotusblankets.microinternational/" target="_blank">
+                                    <a href="https://www.facebook.com/lotusblankets.microinternational/">
                                         <FontAwesomeIcon icon={faFacebook} size="2x"></FontAwesomeIcon>
                                     </a>
-                                    <a href="https://www.instagram.com/lotusblankets/" target="_blank">
+                                    <a href="https://www.instagram.com/lotusblankets/">
                                         <FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon>
                                     </a>
 

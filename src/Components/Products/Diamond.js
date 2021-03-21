@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import di from '../imgs/Diamond.png';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -21,7 +21,7 @@ function Diamond() {
 
                         <div className="fourr columnns">
 
-                            <img src={di}></img>
+                            <img src={di} alt="" />
 
                         </div>
 

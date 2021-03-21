@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import em from '../imgs/Emerald.png';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -22,7 +22,7 @@ function Emerald() {
 
                         <div className="fourr columnns">
 
-                            <img src={em}></img>
+                            <img src={em} alt="" />
 
                         </div>
                         <div className="onee columnns"></div>

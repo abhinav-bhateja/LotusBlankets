@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import pt from '../imgs/Platinum.png';
 
 
@@ -22,7 +22,7 @@ function Platinum() {
 
                         <div className="fourr columnns">
 
-                            <img src={pt}></img>
+                            <img src={pt} alt=""></img>
 
                         </div>
 

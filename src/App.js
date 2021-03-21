@@ -52,13 +52,13 @@ class App extends Component {
 
                     <div id='log' className="logo-bt">
 
-                        <img src={logo2} />
+                        <img alt="" src={logo2} />
 
                     </div>
 
                     <div id='log' className="logo-be">
 
-                        <img src={logo} />
+                        <img alt="" src={logo} />
 
                     </div>
 
@@ -192,7 +192,7 @@ function Main() {
                                     <div className="item-wrap">
 
 
-                                        <img src={pe}/>
+                                        <img alt="" src={pe}/>
                                         <p className="namessss">Pearl Blankets</p>
 
 
@@ -208,7 +208,7 @@ function Main() {
                                     <div className="item-wrap">
 
 
-                                        <img src={sa}/>
+                                        <img alt="" src={sa}/>
                                         <p className="namessss">Sapphire Blankets</p>
 
 
@@ -223,7 +223,7 @@ function Main() {
                                     <div className="item-wrap">
 
 
-                                        <img src={em}/>
+                                        <img alt="" src={em}/>
                                         <p className="namessss">Emerald Blankets</p>
 
 
@@ -238,7 +238,7 @@ function Main() {
                                     <div className="item-wrap">
 
 
-                                        <img src={pt}/>
+                                        <img alt="" src={pt}/>
                                         <p className="namessss">Platinum Blankets</p>
 
 
@@ -254,7 +254,7 @@ function Main() {
                                     <div className="item-wrap">
 
 
-                                        <img src={mink}/>
+                                        <img alt="" src={mink}/>
                                         <p className="namessss">Solitaire Branded Blankets</p>
 
 
@@ -270,7 +270,7 @@ function Main() {
                                     <div className="item-wrap">
 
 
-                                        <img src={di}/>
+                                        <img alt="" src={di}/>
                                         <p className="namessss">Diamond Blankets</p>
 
 
